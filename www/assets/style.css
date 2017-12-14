@@ -26,12 +26,10 @@ html{
 	-moz-transform: translate(-50%, -50%);
 	-webkit-transform:  translate(-50%, -50%);
 }
-
 .spinning{animation:spinning 1.2s infinite linear;-webkit-animation:spinning 1.2s infinite linear}
 @keyframes spinning{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
 @-webkit-keyframes spinning{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
-
-.login-form .w3-section .material-icons{
+.login-form .section .material-icons{
 	font-size: 40px;
 }
 input.transparent, select.transparent{
