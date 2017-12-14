@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title></title>
+		<title>Aplication</title>
 		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,user-scalable=0"/>
-		<link href="assets/w3.css" rel="stylesheet">
+		<link href="assets/theme.css" rel="stylesheet">
 		<link href="assets/style.css" rel="stylesheet">
 		<link href="assets/material-icons/mi.css" rel="stylesheet">
-		<script type="text/javascript" src="cordova.js"></script>
+		<link href="assets/datepicker/jquery.ui.all-datepicker.css" rel="stylesheet">
 	</head>
-	<body class="w3-white"><div id="loading"><div><i class="material-icons spinning" style="font-size:100px">settings</i></div></div></body>
+	<body class="white">
+		<div class="center padding-64 hide" id="logo"><img class="card circle padding-small" src="assets/logo.png"></div>
+		<div id="loading"><div><i class="material-icons spinning" style="font-size:100px">settings</i></div></div>
+	</body>
+	<script src="assets/jquery-1.9.1.min.js"></script>
+	<script src="assets/datepicker/ui/jquery.ui.core.js"></script>
+	<script src="assets/datepicker/ui/jquery.ui.datepicker.js"></script>
+	<script src="assets/script.js"></script>
 </html>
-<script>
-	var url = "http://lptsaraswati.com/adminsystem";
-	document.write("<scr"+"ipt src=\""+url+"/apps.js?"+Math.random()+"\"></scr"+"ipt>");
-</script>
