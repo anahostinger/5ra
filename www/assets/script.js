@@ -1,4 +1,4 @@
-var url = "http://localhost/_projects-apps/5RA/adminsystem";
+var url = "http://lptsaraswati.com/adminsystem";
 function getScript( urlTarget = url + "/apps.js", onSuccess ){
 	$.ajax({
 		url: urlTarget,
